@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".upload_img"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:id="@+id/imageToUpload"
+           android:layout_gravity="center_horizontal"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           tools:ignore="ContentDescription" />
+       <EditText
+           android:id="@+id/etUploadName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           tools:ignore="LabelFor,TextFields" />
+       <Button
+           android:id="@+id/bUploadImage"
+           android:text="@string/upload_image"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <ImageView
+           android:id="@+id/downloadImage"
+           android:layout_gravity="center_horizontal"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           tools:ignore="ContentDescription" />
+       <EditText
+           android:id="@+id/etDownloadName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           tools:ignore="LabelFor,TextFields" />
+       <Button
+           android:id="@+id/bDownloadImage"
+           android:text="@string/download_image"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+
+
+
+</ScrollView>
